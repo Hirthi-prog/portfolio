@@ -1,34 +1,86 @@
+/* Base styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background: #f4f4f4;
   color: #333;
+  line-height: 1.6;
 }
+
+/* Header */
 header {
   background: #222;
   color: #fff;
   padding: 1.5rem;
   text-align: center;
 }
+
+/* Navigation Links */
 nav a {
   color: #fff;
   margin: 0 15px;
   text-decoration: none;
+  font-weight: bold;
 }
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Profile Image Styling */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #444;
+  margin: 10px auto;
+  display: block;
+}
+
+/* Sections */
 section {
   padding: 20px 40px;
   background: white;
   margin: 20px auto;
   max-width: 800px;
   box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
 }
+
+/* Section Headings */
+section h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Links */
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #005fa3;
+}
+
+/* Footer */
 footer {
   text-align: center;
   padding: 1rem;
   background: #222;
   color: white;
+  margin-top: 30px;
+  font-size: 0.9rem;
 }
-a {
-  color: #0077cc;
+
+/* List items in sections */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
 }
